@@ -14,7 +14,7 @@ import React, {Component} from "react";
 // import Education from "./education/Education";
 // import Top from "./topbutton/Top";
 import Hero from "./hero"
-import Twitter from "./twitter-embed/twitter";
+// import Twitter from "./twitter-embed/twitter";
 import {StyleProvider} from "../contexts/StyleContext";
 import "./Main.css";
 // import Profile from "./profile/Profile";
@@ -58,7 +58,7 @@ export default class Main extends Component {
           <Achievement />
           <Blogs />
           <Talks /> */}
-          <Twitter />
+          {/* <Twitter /> */}
           {/* <Podcast />
           <Profile />
           <Footer />
