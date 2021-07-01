@@ -1,5 +1,5 @@
 import React, {useContext} from "react";
-import {Fade} from "react-reveal";
+// import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.css";
 // import landingPerson from "../../assets/lottie/landingPerson";
@@ -20,7 +20,7 @@ export default function Greeting() {
 
       <div className="greet-main" id="greeting">
         <div className="greeting-main">
-    <Fade left duration={1550}>
+    {/* <Fade left duration={1550}> */}
 
           <div className="greeting-text-div">
             <div>
@@ -51,10 +51,10 @@ export default function Greeting() {
               </div>
             </div>
           </div>
-    </Fade>
+    {/* </Fade> */}
           
 
-        <Fade left duration={1500}>
+        {/* <Fade left duration={1500}> */}
 
           <div className="greeting-image-div">
             {/* {illustration.animated ? (
@@ -66,7 +66,7 @@ export default function Greeting() {
               ></img>
             {/* )} */}
           </div>
-          </Fade>
+          {/* </Fade/> */}
         </div>
       </div>
   );
