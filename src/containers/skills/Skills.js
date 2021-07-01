@@ -11,7 +11,7 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function Skills() {
   const {isDark} = useContext(StyleContext);
-  var skills = [ "We have tools that help you and your team all free of charge or you can ask us to do it for you", "We will curate a product line that is perfect for your team" , "and we’re so confident that you’ll love it that we do all the design and product selection for free." ]
+  var skills = [ "We have tools that help you and your team all free of charge or you can ask us to do it for you ", "We will curate a product line that is perfect for your team" , "and we’re so confident that you’ll love it that we do all the design and product selection for free." ]
   // if (!skillsSection.display) {
   //   return null;
   // }

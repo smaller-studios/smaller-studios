@@ -26,7 +26,7 @@ function Header() {
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
-        {/* remember to add logo */}
+        <img src="../../assets/images/smaller.png" alt="" />
           </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label

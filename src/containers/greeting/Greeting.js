@@ -16,9 +16,12 @@ export default function Greeting() {
   //   return null;
   // }
   return (
-    <Fade bottom duration={1000} distance="40px">
+    // <Fade bottom duration={1000} distance="40px">
+
       <div className="greet-main" id="greeting">
         <div className="greeting-main">
+    <Fade left duration={1550}>
+
           <div className="greeting-text-div">
             <div>
               <h1
@@ -48,6 +51,11 @@ export default function Greeting() {
               </div>
             </div>
           </div>
+    </Fade>
+          
+
+        <Fade left duration={1500}>
+
           <div className="greeting-image-div">
             {/* {illustration.animated ? (
               <DisplayLottie animationData={landingPerson} />
@@ -58,8 +66,8 @@ export default function Greeting() {
               ></img>
             {/* )} */}
           </div>
+          </Fade>
         </div>
       </div>
-    </Fade>
   );
 }

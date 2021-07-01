@@ -12,14 +12,13 @@ import Skills from "./skills/Skills";
 // import Talks from "./talks/Talks";
 // import Podcast from "./podcast/Podcast";
 // import Education from "./education/Education";
-// import Top from "./topbutton/Top";
-import Hero from "./hero"
-import Steps from "./steps"
+import Top from "./topbutton/Top";
+import Hero from "./hero";
+import Steps from "./steps";
 // import Twitter from "./twitter-embed/twitter";
 import {StyleProvider} from "../contexts/StyleContext";
 import "./Main.css";
 // import Profile from "./profile/Profile";
-
 
 export default class Main extends Component {
   constructor(props) {
@@ -48,11 +47,10 @@ export default class Main extends Component {
         <StyleProvider
           value={{isDark: this.state.isDark, changeTheme: this.changeTheme}}
         >
-          
           <Header />
 
-        <Hero />
-        {/* <Steps /> */}
+          <Hero />
+          {/* <Steps /> */}
           <Greeting />
           <Skills />
           {/* <StackProgress /> */}
@@ -66,8 +64,8 @@ export default class Main extends Component {
           {/* <Twitter /> */}
           {/* <Podcast />
           <Profile />
-          <Footer />
-          <Top /> */}
+          <Footer /> */}
+          <Top />
         </StyleProvider>
       </div>
     );
