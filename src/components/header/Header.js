@@ -38,38 +38,38 @@ function Header() {
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           {/* {viewSkills && ( */}
-            <li>
+            {/* <li>
               <a href="#skills">Skills</a>
-            </li>
+            </li> */}
           {/* )} */}
           {/* {viewExperience && ( */}
-            <li>
+            {/* <li>
               <a href="#experience">Work Experiences</a>
-            </li>
+            </li> */}
           {/* )} */}
           {/* {viewOpenSource && ( */}
-            <li>
+            {/* <li>
               <a href="#opensource">Open Source</a>
-            </li>
+            </li> */}
           {/* )} */}
           {/* {viewAchievement && ( */}
-            <li>
+            {/* <li>
               <a href="#achievements">Achievements</a>
-            </li>
+            </li> */}
           {/* )} */}
           {/* {viewBlog && ( */}
-            <li>
+            {/* <li>
               <a href="#blogs">Blogs</a>
-            </li>
+            </li> */}
           {/* )} */}
           {/* {viewTalks && ( */}
-            <li>
+            {/* <li>
               <a href="#talks">Talks</a>
-            </li>
+            </li> */}
           {/* )} */}
-          <li>
+          {/* <li>
             <a href="#contact">Contact Me</a>
-          </li>
+          </li> */}
           {/* <li>
             <a href="#">
               <ToggleSwitch />
