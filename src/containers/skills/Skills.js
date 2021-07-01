@@ -1,30 +1,33 @@
 import React, {useContext} from "react";
 import "./Skills.css";
-import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
-import {illustration, skillsSection} from "../../portfolio";
+// import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
+// import { skillsSection} from "../../portfolio";
+
+// import {illustration, skillsSection} from "../../portfolio";
 import {Fade} from "react-reveal";
-import codingPerson from "../../assets/lottie/codingPerson";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
+// import codingPerson from "../../assets/lottie/codingPerson";
+// import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Skills() {
   const {isDark} = useContext(StyleContext);
-  if (!skillsSection.display) {
-    return null;
-  }
+  var skills = [ "We have tools that help you and your team all free of charge or you can ask us to do it for you", "We will curate a product line that is perfect for your team" , "and we’re so confident that you’ll love it that we do all the design and product selection for free." ]
+  // if (!skillsSection.display) {
+  //   return null;
+  // }
   return (
     <div className={isDark ? "dark-mode main" : "main"} id="skills">
       <div className="skills-main-div">
         <Fade left duration={1000}>
           <div className="skills-image-div">
-            {illustration.animated ? (
+            {/* {illustration.animated ? (
               <DisplayLottie animationData={codingPerson} />
-            ) : (
+            ) : ( */}
               <img
                 alt="Man Working"
-                src={require("../../assets/images/developerActivity.svg")}
+                src={require("../../assets/images/hero.jpeg")}
               ></img>
-            )}
+            {/* )} */}
           </div>
         </Fade>
         <Fade right duration={1000}>
@@ -32,8 +35,9 @@ export default function Skills() {
             <h1
               className={isDark ? "dark-mode skills-heading" : "skills-heading"}
             >
-              {skillsSection.title}{" "}
+              {"We Love Your Brand"}{" "}
             </h1>
+            <br/>
             <p
               className={
                 isDark
@@ -41,11 +45,15 @@ export default function Skills() {
                   : "subTitle skills-text-subtitle"
               }
             >
-              {skillsSection.subTitle}
+              {
+                "Specially designed to help your team achieve aesthetic website and branding"
+              }
             </p>
-            <SoftwareSkill />
+            <br/>
+            {/* <SoftwareSkill /> */}
             <div>
-              {skillsSection.skills.map((skills, i) => {
+              
+              {skills.map((skills, i) => {
                 return (
                   <p
                     key={i}

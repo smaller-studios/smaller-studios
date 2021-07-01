@@ -2,9 +2,7 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-    background-color:#f2babd;
-    color: white;
-    transition: "0.1s";
+    
 }
 .kvYdOK {
     margin: auto auto -3px;
@@ -28,6 +26,9 @@
     margin-bottom: 80px;
     display: inline-block;
     transition: background 0.25s ease-in-out 0s;
+    background-color:#f2babd;
+    color: white;
+    transition: "0.1s";
 }
 a {
     color: inherit;

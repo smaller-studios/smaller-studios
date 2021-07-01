@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import hero from "../../assets/images/hero.jpeg"
+import hero from "../../assets/images/smaller.svg"
 
 function index() {
   return (

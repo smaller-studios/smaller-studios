@@ -5,14 +5,14 @@
 import emoji from "react-easy-emoji";
 
 const illustration = {
-  animated: true // set to false to use static SVG
+  animated: false // set to false to use static SVG
 };
 
 const greeting = {
   username: "",
-  title: "",
+  title: emoji(" We ❤️ Problems"),
   subTitle: emoji(
-    ""
+    "The problem is that teams compromise their brands’s potential with subpar Website, either because they don’t have a design, or don’t understand the vast complexities of developing.We believe that the ability to get stunning branded websites should not be reserved for the few, but should be democratized with no barrier to entry."
   ),
   resumeLink:
     "",
@@ -36,76 +36,76 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "",
-  subTitle: "",
+  title: "We Love Your Brand",
+  subTitle: "Specially designed to help your team achieve aesthetic website and branding",
   skills: [
     emoji(
-      ""
+      "#We have tools that help you and your team all free of charge or you can ask us to do it for you"
     ),
-    emoji(""),
+    emoji("#We will curate a product line that is perfect for your team"),
     emoji(
-      ""
+      "#and we’re so confident that you’ll love it that we do all the design and product selection for free."
     )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "",
-      fontAwesomeClassname: ""
-    },
-    {
-      skillName: "",
-      fontAwesomeClassname: ""
-    },
-    {
-      skillName: "",
-      fontAwesomeClassname: ""
-    },
-    {
-      skillName: "",
-      fontAwesomeClassname: ""
-    },
-    {
-      skillName: "",
-      fontAwesomeClassname: ""
-    },
-    {
-      skillName: "",
-      fontAwesomeClassname: ""
-    },
-    {
-      skillName: "",
-      fontAwesomeClassname: ""
-    },
-    {
-      skillName: "",
-      fontAwesomeClassname: ""
-    },
-    {
-      skillName: "",
-      fontAwesomeClassname: ""
-    },
-    {
-      skillName: "",
-      fontAwesomeClassname: ""
-    },
-    {
-      skillName: "",
-      fontAwesomeClassname: ""
-    },
-    {
-      skillName: "",
-      fontAwesomeClassname: ""
-    },
-    {
-      skillName: "",
-      fontAwesomeClassname: ""
-    }
-  ],
-  display: false // Set false to hide this section, defaults to true
+  // softwareSkills: [
+  //   {
+  //     skillName: "",
+  //     fontAwesomeClassname: ""
+  //   },
+  //   {
+  //     skillName: "",
+  //     fontAwesomeClassname: ""
+  //   },
+  //   {
+  //     skillName: "",
+  //     fontAwesomeClassname: ""
+  //   },
+  //   {
+  //     skillName: "",
+  //     fontAwesomeClassname: ""
+  //   },
+  //   {
+  //     skillName: "",
+  //     fontAwesomeClassname: ""
+  //   },
+  //   {
+  //     skillName: "",
+  //     fontAwesomeClassname: ""
+  //   },
+  //   {
+  //     skillName: "",
+  //     fontAwesomeClassname: ""
+  //   },
+  //   {
+  //     skillName: "",
+  //     fontAwesomeClassname: ""
+  //   },
+  //   {
+  //     skillName: "",
+  //     fontAwesomeClassname: ""
+  //   },
+  //   {
+  //     skillName: "",
+  //     fontAwesomeClassname: ""
+  //   },
+  //   {
+  //     skillName: "",
+  //     fontAwesomeClassname: ""
+  //   },
+  //   {
+  //     skillName: "",
+  //     fontAwesomeClassname: ""
+  //   },
+  //   {
+  //     skillName: "",
+  //     fontAwesomeClassname: ""
+  //   }
+  // ],
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
